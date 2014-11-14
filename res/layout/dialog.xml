@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent" android:text="Title"
+		android:layout_height="wrap_content" android:padding="5dip"
+		android:id="@+id/textTitle" android:textSize="32sp" android:gravity="center" />
+	<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/ImageView1" android:src="@drawable/icon"/>
+	<Button android:layout_height="wrap_content" android:gravity="center"
+		android:layout_width="fill_parent" android:text="Ok" android:id="@+id/buttonOk" android:textSize="20sp" android:padding="10dip" android:layout_marginLeft="20dip" android:layout_marginRight="20dip" android:layout_marginTop="5dip"></Button>
+</LinearLayout>
